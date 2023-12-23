@@ -44,7 +44,7 @@ namespace DesafioFundamentos.Models
                 valorTotal = precoInicial+precoPorHora*horas;
                 // TODO: Remover a placa digitada da lista de veículos
                 veiculos.Remove(placa);
-                // *PARCIALMENTE IMPLEMENTADO*
+                // *IMPLEMENTADO*
 
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
@@ -64,7 +64,7 @@ namespace DesafioFundamentos.Models
                     Console.WriteLine(carro);
                 }
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                // *PARCIALMENTE IMPLEMENTADO*
+                // *IMPLEMENTADO*
             }
             else
             {
